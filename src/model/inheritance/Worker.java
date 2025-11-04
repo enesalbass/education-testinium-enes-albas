@@ -2,10 +2,10 @@ package model.inheritance;
 
 public class Worker {
     private int id;
-    protected String name;
-    protected String department;
+    private String name;
+    private int department;
 
-    public Worker(int id, String name, String department) {
+    public Worker(int id, String name, int department) {
         this.id = id;
         this.name = name;
         this.department = department;
@@ -30,12 +30,11 @@ public class Worker {
         this.name = name;
     }
 
-    public String getDepartment() {
+    public int getDepartment() {
         return department;
     }
 
-    public void setDepartment(String department) {
+    public void setDepartment(int department) {
         this.department = department;
     }
-
 }

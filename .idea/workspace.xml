@@ -4,17 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b3b3b06-250c-42a1-bcad-ad8d1efa5c5a" name="Changes" comment="ev calismasi commit">
-      <change afterPath="$PROJECT_DIR$/src/model/constructor/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/inheritance/SoftwareWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/inheritance/Worker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/polymorphism/AreaCalculate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/polymorphism/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/polymorphism/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/polymorphism/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/Default.java" afterDir="false" />
+    <list default="true" id="1b3b3b06-250c-42a1-bcad-ad8d1efa5c5a" name="Changes" comment="ikinci gun konular commit">
+      <change afterPath="$PROJECT_DIR$/src/Bus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Default.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sekil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/School.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/abstraction/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/abstraction/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/abstraction/Voice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/constructor/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/constructor/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/inheritance/SoftwareWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/inheritance/SoftwareWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/inheritance/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/inheritance/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/polymorphism/AreaCalculate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/polymorphism/AreaCalculate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/polymorphism/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/polymorphism/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/polymorphism/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/polymorphism/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/polymorphism/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/polymorphism/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/Default.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,24 +67,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.model.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="Application.model.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
       <option name="MAIN_CLASS_NAME" value="constructor.Main" />
       <module name="education-testinium-enes-albas" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="education-testinium-enes-albas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -93,6 +114,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.model.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -129,13 +151,30 @@
       <option name="project" value="LOCAL" />
       <updated>1762193338747</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ikinci gun konular commit">
+      <option name="closed" value="true" />
+      <created>1762242432069</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1762242432070</updated>
+    </task>
+    <task id="LOCAL-00005" summary="ikinci gun konular commit">
+      <option name="closed" value="true" />
+      <created>1762242574446</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1762242574446</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="third commit" />
     <MESSAGE value="updated commit" />
     <MESSAGE value="ev calismasi commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="ev calismasi commit" />
+    <MESSAGE value="ikinci gun konular commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="ikinci gun konular commit" />
   </component>
 </project>

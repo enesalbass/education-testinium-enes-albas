@@ -1,14 +1,13 @@
 package model.inheritance;
 
 public class SoftwareWorker extends Worker {
-    private String programLanguage;
+    private String programingLanguage;
 
-    public String getProgramLanguage() {
-        return programLanguage;
+    public String getProgramingLanguage() {
+        return programingLanguage;
     }
 
-    public void setProgramLanguage(String programLanguage) {
-        this.programLanguage = programLanguage;
+    public void setProgramingLanguage(String programingLanguage) {
+        this.programingLanguage = programingLanguage;
     }
-
 }
