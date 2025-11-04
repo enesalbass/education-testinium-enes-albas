@@ -1,22 +1,34 @@
-import java.util.*;
+import model.constructor.Car;
+
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Car car=new Car();
+        Car car1=new Car(1,"BMW","red",2025);
+        Car car2=new Car(2,"BMW","red");
+        car.setModel("mercedes");
 
-        System.out.println("Username: ");
-        String name = input.nextLine();
 
-        System.out.println("Password: ");
-        String password = input.nextLine();
 
-        if("admin".equalsIgnoreCase(name) && "1234".equals(password)){
-            System.out.println("Giriş Başarılı");
-        }else {
-            System.out.println("Giriş Başarısız");
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Kullnaıcı adını giriniz :");
+        String userName = scanner.nextLine();
+        System.out.println("Şifreyi Giriniz: ");
+        String password = scanner.nextLine();
+        if ("admin".equals(userName) && "1234".equals(password)) {
+            System.out.println("Giriş Başarılı!!");
+        } else {
+            System.out.println("Hatalı Giriş!");
+
         }
-    }
 
+        sum();
+        multipleArray();
+
+    }
+    // İkinci Çalışma
     public static void sum(){
         Scanner input = new Scanner(System.in);
         System.out.println("First Number: ");
@@ -26,55 +38,28 @@ public class Main {
         int sum = firstNum + secondNum;
         System.out.println("Sum "+ sum);
         int mult = firstNum * secondNum;
-        System.out.println("mult "+ mult);
-        if (mult > 5000 && sum < 4000){
-            System.out.println("Koşul sağlandı" + mult);
+        System. out. println("mult "+ mult);
+        if (mult > 5000 & sum < 4000) {
+            System. out. println("Koşul sağlandı!" + mult);
         }
     }
 
-    public static void arrays(){
-        int[][][] cube = new int[2][3][4];
-        int val = 1;
-        for (int i = 0; i < cube.length; i++) {
-            for (int j = 0; j < cube[i].length; j++) {
-                for (int k = 0; k < cube[i][j].length; k++) {
-                    cube[i][j][k] = val++;
-                }
+    static void multipleArray() {
+        int[][] multipleArray = new int[20][5];
+        multipleArray[0][0] = 1;
+        multipleArray[0][1] = 2;
+        multipleArray[0][2] = 3;
+        multipleArray[0][3] = 4;
+        multipleArray[0][4] = 5;
+
+        // Tüm elemanlar ekrana yazdırılıyor
+        for (int i = 0; i < multipleArray.length; i++) {
+            for (int j = 0; j < multipleArray[i].length; j++) {
+                System.out.println("multipleArray[" + i + "][" + j + "] = " + multipleArray[i][j]);
+
             }
         }
-        System.out.println("---- 3 Boyutlu Dizi (2x3x4) ----");
-        for (int i = 0; i < cube.length; i++) {
-            for (int j = 0; j < cube[i].length; j++) {
-                for (int k = 0; k < cube[i][j].length; k++) {
-                    System.out.printf("cube[%d][%d][%d] = %d%n", i, j, k, cube[i][j][k]);
-                }
-            }
-        }
-
-        List<String> cities = new ArrayList<>(Arrays.asList(
-                "İstanbul", "Ankara", "İzmir", "Bursa", "Antalya",
-                "Adana", "Konya", "Gaziantep", "Şanlıurfa", "Kayseri"
-        ));
-        System.out.println("\n---- Şehir Listesi (10 adet) ----");
-        for (int i = 0; i < cities.size(); i++) {
-            System.out.printf("%2d) %s%n", i + 1, cities.get(i));
-        }
-
-        // 3) Map: plaka kodu -> şehir (LinkedHashMap: ekleme sırasını korur)
-        Map<Integer, String> plates = new LinkedHashMap<>();
-        plates.put(34, "İstanbul");
-        plates.put(6,  "Ankara");
-        plates.put(35, "İzmir");
-        plates.put(16, "Bursa");
-        plates.put(7,  "Antalya");
-        plates.put(1,  "Adana");
-        plates.put(42, "Konya");
-        plates.put(27, "Gaziantep");
-        plates.put(63, "Şanlıurfa");
-        plates.put(38, "Kayseri");
-
-        System.out.println("\n---- Plaka -> Şehir Map'i ----");
-        plates.forEach((plate, city) -> System.out.printf("%02d -> %s%n", plate, city));
-    }
     }
 
+
+}
