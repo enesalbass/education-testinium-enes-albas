@@ -5,7 +5,7 @@ public class Square implements Shape{
     private double kenar;
     @Override
     public double areaCalculate() {
-        return 1;
+        return kenar*kenar;
     }
 
     public Square(double kenar) {
